@@ -12,3 +12,4 @@ structlog==23.2.0
 python-dotenv==1.0.0
 email-validator==2.1.0
 python-multipart==0.0.6
+browserbase==0.2.0
