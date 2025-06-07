@@ -1,4 +1,4 @@
-## Orchids (YC-backed) mockup.
+## Orchids (YC-backed) mockup. 🌸
 Website cloner using next.js + TypeScript as the frontend and fastapi + Anthropic (Claude Sonnet 3.5) in the backend.
 
 ### how the application works
