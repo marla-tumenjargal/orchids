@@ -1,5 +1,7 @@
 ## Orchids (YC-backed) mockup - website cloner 🌸
-When given a URL, the website cloner uses next.js +  TypeScript as the frontend and fastapi + Anthropic (Claude Sonnet 3.5) + Playwright Chromium in the backend to clone the frontend with HTML. 
+A mock website cloning tool developed as a take-home project for the Orchids internship final "interview." When given a URL, the application uses Next.js + TypeScript on the frontend and FastAPI + Playwright Chromium + Anthropic’s Claude Sonnet 3.5 on the backend to reconstruct the website's HTML and content.
+
+⚠️ This project is purely for educational purposes. I am not attempting to copy or replicate Orchids' business model in any way.
 
 ### how the application works
 **class llm_cloner.py**: interprets scraped data from scraper.py to prompt Claude to recreate the given website given user preferences 
@@ -20,3 +22,5 @@ uv run fastapi dev
 cd frontend
 npm install
 npm run dev
+
+
