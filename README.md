@@ -3,6 +3,10 @@ A mock website cloning tool developed as a take-home project for the Orchids int
 
 ⚠️ This project is purely for educational purposes. I am not attempting to copy or replicate Orchids' business model in any way.
 
+
+<img width="1728" alt="github-readme-orchids" src="https://github.com/user-attachments/assets/728c180e-8c27-4d34-ba28-1fc7f613c89d" />
+
+
 ### how the application works
 **class llm_cloner.py**: interprets scraped data from scraper.py to prompt Claude to recreate the given website given user preferences 
 
@@ -22,7 +26,4 @@ uv run fastapi dev
 cd frontend
 npm install
 npm run dev
-
-
-<img width="1728" alt="github-readme-orchids" src="https://github.com/user-attachments/assets/728c180e-8c27-4d34-ba28-1fc7f613c89d" />
 
