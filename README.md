@@ -19,11 +19,15 @@ A mock website cloning tool developed as a take-home project for the Orchids int
 
 ### to install backend:
 cd backend
+
 uv sync
+
 uv run fastapi dev
 
 ### to install front end:
 cd frontend
+
 npm install
+
 npm run dev
 
