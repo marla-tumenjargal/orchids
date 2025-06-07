@@ -1,43 +1,19 @@
-# Orchids SWE Intern Challenge Template [🌸 aka Orchids mockup 🌸]
+# Orchids (YC-backed) mockup.
+Website cloner using next.js + TypeScript as the frontend and fastapi + Anthropic (Claude Sonnet 3.5) in the backend.
 
-This project consists of a backend built with FastAPI and a frontend built with Next.js and TypeScript.
+# how the application works
+class llm_cloner.py: interprets scraped data from scraper.py to prompt Claude to recreate the given website given user preferences 
+class scraper.py: uses Playwright to "scrape" website elements such as HTML, text, images, and forms, to analyze the given website.
+class main.py: accepts clone requests via REST API + controls API usage
+class utils.py: ensures URLs are properly formatted, deals with temporary failures (retry logic), and configures logging for debugging
 
-## Backend
 
-The backend uses `uv` for package management.
-
-### Installation
-
-To install the backend dependencies, run the following command in the backend project directory:
-
-```bash
+# to install backend:
+cd backend
 uv sync
-```
-
-### Running the Backend
-
-To run the backend development server, use the following command:
-
-```bash
 uv run fastapi dev
-```
 
-## Frontend
-
-The frontend is built with Next.js and TypeScript.
-
-### Installation
-
-To install the frontend dependencies, navigate to the frontend project directory and run:
-
-```bash
+# to install front end:
+cd frontend
 npm install
-```
-
-### Running the Frontend
-
-To start the frontend development server, run:
-
-```bash
 npm run dev
-```
