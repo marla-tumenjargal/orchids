@@ -1,7 +1,7 @@
 ## Orchids (YC-backed) mockup - website cloner 🌸
 A mock website cloning tool developed as a take-home project for the Orchids internship final "interview." When given a URL, the application uses Next.js + TypeScript on the frontend and FastAPI + Playwright Chromium + Anthropic’s Claude Sonnet 3.5 on the backend to reconstruct the website's HTML and content.
 
-⚠️ This project is purely for educational purposes. I am not attempting to copy or replicate Orchids' business model in any way.
+⚠️ This project is purely for educational purposes. I am **not** attempting to copy or replicate Orchids' business model in any way.
 
 
 <img width="1728" alt="github-readme-orchids" src="https://github.com/user-attachments/assets/728c180e-8c27-4d34-ba28-1fc7f613c89d" />
