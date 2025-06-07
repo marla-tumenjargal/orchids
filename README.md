@@ -23,4 +23,6 @@ cd frontend
 npm install
 npm run dev
 
+<img width="1496" alt="Screenshot 2025-06-06 at 11 12 30 PM" src="https://github.com/user-attachments/assets/c6e6f6a1-e315-4e55-ab9c-44c6c1db979d" />
+
 
